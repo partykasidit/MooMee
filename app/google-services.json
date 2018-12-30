@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "574636446180",
+    "firebase_url": "https://moomee-7e859.firebaseio.com",
+    "project_id": "moomee-7e859",
+    "storage_bucket": "moomee-7e859.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574636446180:android:f14e53975b5b95f9",
+        "android_client_info": {
+          "package_name": "com.party.moomee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574636446180-rki0n7uu0g2s66lgjicql6m9qv48f077.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.party.moomee",
+            "certificate_hash": "21fed6dd6bca6f8c391969ef6c7dccd4e7be9f9f"
+          }
+        },
+        {
+          "client_id": "574636446180-60pmvubedgndvevaiu2vhjbe1r8dd19u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTS3MovIZfohiksVQj8jattTpJ1JFd10Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574636446180-60pmvubedgndvevaiu2vhjbe1r8dd19u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">MooMee</string>
+    <string name="home_tab">หน้าหลัก</string>
+    <string name="list_tab">อาหารที่เหลืออยู่</string>
+    <string name="add_button">บันทึกรายการอาหาร</string>
+    <string name="feed_button">ลบรายการอาหาร</string>
+    <string name="rice">ข้าว</string>
+
+    <string-array name="integers">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="numbers_for_removing">
+        <item>0</item>
+        <item>0.5</item>
+        <item>1</item>
+        <item>1.5</item>
+        <item>2</item>
+        <item>2.5</item>
+        <item>3</item>
+        <item>3.5</item>
+        <item>4</item>
+        <item>4.5</item>
+        <item>5</item>
+        <item>5.5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="qualitativeNoun">
+        <item>ถุง</item>
+        <item>ไม้</item>
+    </string-array>
+
+</resources>
