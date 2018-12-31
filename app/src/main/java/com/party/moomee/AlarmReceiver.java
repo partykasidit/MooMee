@@ -29,9 +29,9 @@ public class AlarmReceiver extends BroadcastReceiver {
         Uri alarmSound = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
 
         NotificationCompat.Builder mNotifyBuilder = new NotificationCompat.Builder(
-                context).setSmallIcon(R.drawable.ic_launcher_background)
-                .setContentTitle("Alarm Fired")
-                .setContentText("Events to be Performed").setSound(alarmSound)
+                context).setSmallIcon(R.mipmap.ic_launcher)
+                .setContentTitle("It's time to feed your dog.")
+                .setContentText("Please record your food.").setSound(alarmSound)
                 .setAutoCancel(true).setWhen(when)
                 .setContentIntent(pendingIntent)
                 .setVibrate(new long[]{1000, 1000, 1000, 1000, 1000});
