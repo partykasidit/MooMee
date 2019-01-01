@@ -30,11 +30,10 @@ public class AlarmReceiver extends BroadcastReceiver {
 
         NotificationCompat.Builder mNotifyBuilder = new NotificationCompat.Builder(
                 context).setSmallIcon(R.mipmap.ic_launcher)
-                .setContentTitle("It's time to feed your dog.")
-                .setContentText("Please record your food.").setSound(alarmSound)
+                .setContentTitle("Did you feed Moo-moo?")
+                .setContentText("Please record your feeding.").setSound(alarmSound)
                 .setAutoCancel(true).setWhen(when)
-                .setContentIntent(pendingIntent)
-                .setVibrate(new long[]{1000, 1000, 1000, 1000, 1000});
+                .setContentIntent(pendingIntent);
         notificationManager.notify(MID, mNotifyBuilder.build());
         MID++;
     }

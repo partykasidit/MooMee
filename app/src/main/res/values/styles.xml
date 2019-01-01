@@ -9,6 +9,7 @@
         <item name="actionBarStyle">@style/MyActionBar</item>
         <item name="actionBarSize">50dp</item>
         <item name="actionBarTheme">@style/MyActionBarTheme</item>
+        <item name="android:fontFamily">@font/kanit</item>
     </style>
 
     <style name="MyActionBar" parent="@style/Widget.AppCompat.ActionBar.Solid">
